@@ -1,4 +1,4 @@
-+26
+
 // show or hide billboard
 boolean showHide = true;
 

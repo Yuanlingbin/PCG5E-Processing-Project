@@ -5,7 +5,7 @@ PImage bg;
 void setup() {
   fullScreen();
   bg = loadImage("dysonsphere.png");
-
+  bg.resize(width, height);
   // Draws all geometry with smooth (anti-aliased) edges. 
   smooth();
 
@@ -22,7 +22,6 @@ void setup() {
 
 void draw() {
   background(bg);
-  bg.resize(width, height);
 
   drive();
   drawSpacestream();
