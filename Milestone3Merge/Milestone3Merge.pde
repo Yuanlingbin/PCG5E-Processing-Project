@@ -1,4 +1,3 @@
-
 // background variable
 PImage bg;
 
