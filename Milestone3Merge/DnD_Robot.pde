@@ -76,4 +76,7 @@ void resetWinkel() {
   if (z >= 10000) {
     z -= z;
   }
+  if (z <= -1000) {
+    z += z;
+  }
 }
