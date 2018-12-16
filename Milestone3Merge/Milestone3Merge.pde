@@ -2,7 +2,7 @@
 PImage bg;
 
 void setup() {
-  fullScreen();
+  size(600,400);
   bg = loadImage("dysonsphere.png");
   bg.resize(width, height);
   // Draws all geometry with smooth (anti-aliased) edges. 
