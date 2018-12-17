@@ -23,4 +23,5 @@ void showHideIcon() {
     rect(width*0.93, height*0.01, width*0.95, height/9);
     stroke(0);
   }
+  println("gitHUB");
 }
