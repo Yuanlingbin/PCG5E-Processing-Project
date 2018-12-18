@@ -1,5 +1,5 @@
 
-// creating font 
+ 
 PFont f;
 
 int score =0;
